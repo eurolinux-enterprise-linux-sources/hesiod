@@ -1,6 +1,6 @@
 Name: hesiod
 Version: 3.2.1
-Release: 1%{?dist}
+Release: 3%{?dist}
 Source: ftp://athena-dist.mit.edu/pub/ATHENA/hesiod/hesiod-%{version}.tar.gz
 Summary: Shared libraries for querying the Hesiod naming service
 Group: System Environment/Libraries
@@ -29,6 +29,12 @@ ensure the files are synchronized among multiple hosts.  This package contains
 the header files and libraries required for building programs which use Hesiod.
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.2.1-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.2.1-2
+- Mass rebuild 2013-12-27
+
 * Wed Apr  3 2013 Nalin Dahyabhai <nalin@fedoraproject.org> - 3.2.1-1
 - update to 3.2.1
   - merged all patches or equivalents
